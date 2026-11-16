@@ -41,7 +41,7 @@ jobs:
       - name: Conectar a AKS
         run: |
           az aks get-credentials \
-            --resource-group rg-devops-academia \
+            --resource-group rg-staging-devops \
             --name aks-devops
 
       - name: Helm deploy en Staging
