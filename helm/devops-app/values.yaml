@@ -4,6 +4,8 @@ image:
   repository: nginx
   tag: "1.25-alpine"
   pullPolicy: IfNotPresent
+  # Esta configuración garantiza que siempre se use nginx:1.25-alpine
+  # Cambiar solo si deseas actualizar a otra versión de nginx
 
 imagePullSecrets: []
 
