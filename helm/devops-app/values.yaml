@@ -3,7 +3,7 @@ replicaCount: 2
 image:
   repository: nginx
   tag: "1.25-alpine"
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   # Esta configuración garantiza que siempre se use nginx:1.25-alpine
   # Cambiar solo si deseas actualizar a otra versión de nginx
 
